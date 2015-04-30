@@ -19,7 +19,7 @@ namespace Assets.Scripts.Character
     public class ActionStreetMapBehavior : MonoBehaviour
     {
         /// <summary> This is start coordinate corresponds to World (0,0,0). </summary>
-        private GeoCoordinate StartPosition = new GeoCoordinate(37.7130093,-89.2200486);
+        private GeoCoordinate StartPosition = new GeoCoordinate(37.7105436,-89.2181818);
 
         private IPositionObserver<MapPoint> _positionObserver;
 
